@@ -1,0 +1,2 @@
+Questions:
+5. The definition is that with branching you diverge from the mail line and continue to do work without messing with that main line. I see it like versions and subversions.  
