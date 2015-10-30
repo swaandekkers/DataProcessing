@@ -26,43 +26,52 @@ def extract_tvseries(dom):
     - Actors/actresses (comma separated if more than one)
     - Runtime (only a number!)
     '''
-    for e in dom.by_tag("tr.detailed")[:1]:
+    list_row = []
+    list_total = []
+    # Do this for all 50 series
+    for series in dom.by_tag("tr.detailed")[:50]:
         genres = str("")
         actors = str("")
-        for b in e.by_tag("td.title")[:1]:
-            for d in b.by_tag("a")[:1]:
-                title = d[0]
-                print title
-            for j in b.by_tag("div.user_rating")[:1]:
-                    for k in j.by_tag("div.rating")[:1]:
-                        for l in k.by_tag("span.rating-rating")[:1]:
-                            for ranking in l.by_tag("span.value"):
-                                print ranking[0]
-            for f in b.by_tag("span.genre"):
-                for genre in f.by_tag("a"):
-                        genres += str(genre[0])
-                        genres += ", "
-            for h in b.by_tag("span.credit"):
-                for actor in h.by_tag("a"):
-                        actors += str(actor[0])
-                        actors += ", "
-            for m in b.by_tag("span.runtime"):
-                time = str(m[0])
-                num = time.split(" ")
-                runtime = num[0]
-                print runtime
-            
-        genres = genres[:-2]
-        actors = actors[:-2]
-        print genres
-        print actors
 
-    # ADD YOUR CODE HERE TO EXTRACT THE ABOVE INFORMATION ABOUT THE
-    # HIGHEST RANKING TV-SERIES
-    # NOTE: FOR THIS EXERCISE YOU ARE ALLOWED (BUT NOT REQUIRED) TO IGNORE
-    # UNICODE CHARACTERS AND SIMPLY LEAVE THEM OUT OF THE OUTPUT.
+        # Find the title of the serie
+        td = series.by_tag("td.title")[0]
+        for a in td.by_tag("a")[:1]:
+            title = str(a[0])
+            list_row.append(title)
 
-    return []  # replace this line as well as appropriate
+        # Find the ranking of the serie
+        div1 = td.by_tag("div.user_rating")[0]
+        div2 = div1.by_tag("div.rating")[0]
+        span1 = div2.by_tag("span.rating-rating")[0]
+        for span2 in span1.by_tag("span.value"):
+            ranking = str(span2[0])
+            list_row.append(ranking)
+
+        # Find the genre of the serie
+        for span in td.by_tag("span.genre"):
+            for genre in span.by_tag("a"):
+                genres += str(genre[0])
+                genres += ", "
+            genres = genres[:-2]
+            list_row.append(genres)
+
+        # Find the actors who play in the serie
+        for span in td.by_tag("span.credit"):
+            for actor in span.by_tag("a"):
+                actors += str(actor[0])
+                actors += ", "
+            actors = actors[:-2]
+            list_row.append(actors)
+
+        # Find the runtime of the serie
+        for span in td.by_tag("span.runtime"):
+            time = str(span[0])
+            num = time.split(" ")
+            runtime = num[0]
+            list_row.append(runtime)
+        list_total.append(list_row)
+        list_row = []
+    return list_total
 
 
 def save_csv(f, tvseries):
@@ -71,9 +80,9 @@ def save_csv(f, tvseries):
     '''
     writer = csv.writer(f)
     writer.writerow(['Title', 'Ranking', 'Genre', 'Actors', 'Runtime'])
-
-    # ADD SOME CODE OF YOURSELF HERE TO WRITE THE TV-SERIES TO DISK
-
+    for serie in tvseries:
+        writer.writerow(serie)
+    
 if __name__ == '__main__':
     # Download the HTML file
     url = URL(TARGET_URL)
