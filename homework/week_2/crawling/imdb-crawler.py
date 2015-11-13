@@ -213,17 +213,15 @@ def scrape_top_250(url):
     '''
     dom = DOM(url.download(cached=True))
     movie_urls = []
-    for series in dom.by_tag("tr")[:10]:
-        for td in series.by_tag("td.titleColumn")[:1]:
+    for series in dom.by_tag("tr")[:100]:
+        for td in series.by_tag("td.titleColumn"):
             for a in td.by_tag("a"):
                 content = str(a).split('"')
                 urlabs = str("http://imdb.com")
                 urlabs += (content[1])
                 movie_urls.append(urlabs)
-                #print urlabs
 
     # return the list of URLs of each movie's page on IMDB
-    print movie_urls
     return movie_urls
 
 def scrape_movie_page(dom):
@@ -241,13 +239,70 @@ def scrape_movie_page(dom):
         several), actor(s) (semicolon separated if several), rating, number
         of ratings.
     '''
-    print dom
-    for begin in dom.by_tag("span.itemprop")[:1]:
-        print begin
+    # Make a list to put the variables in
+    movie_list = []
 
-    return title, duration, genres, directors, writers, actors, rating, \
-        n_ratings
+    #Find title
+    title = dom.by_tag("span.itemprop")[0].content
+    movie_list.append(title)
 
+    #find duration
+    duration = dom.by_attr(itemprop="duration")[0].content
+    duration = duration
+    duration = duration.replace(" ", "")
+    duration = duration.replace("\n", "")
+    duration = duration.replace("min", "")
+    movie_list.append(duration)
+
+    #find genre
+    genres = str("")
+    div1 = dom.by_class("infobar")[0]
+    for genre in div1.by_attr(itemprop="genre"):
+        genres += genre.content
+        genres += "; "
+    genres = genres[:-2]
+    movie_list.append(genres)
+
+    #Find director
+    directors = str("")
+    span = dom.by_attr(itemprop="director")[0]
+    for director in span.by_attr(itemprop="name"):
+        directors += director.content
+        directors += "; "
+    directors = directors[:-2]    
+
+    #directors = str(span.by_attr(itemprop="name")[0][0])
+    movie_list.append(directors)
+
+    #Find writers
+    writers = str("")
+    div2 = dom.by_attr(itemprop="creator")[0]
+    for writer in div2.by_attr(itemprop="name"):
+        writers += writer.content
+        writers += "; "
+    writers = writers[:-2]
+    movie_list.append(writers)
+
+    # Find actors
+    actors = str("")
+    div3 = dom.by_attr(itemprop="actors")[0]
+    for actor in div3.by_attr(itemprop="name"):
+        actors += actor.content
+        actors += "; "
+    actors = actors[:-2]
+    movie_list.append(actors)
+
+    #Find rating
+    rating = dom.by_attr(itemprop="ratingValue")[0].content
+    movie_list.append(rating)
+
+    #Find number of ratings
+    n_ratings = dom.by_attr(itemprop="ratingCount")[0].content
+    n_ratings = n_ratings
+    n_ratings = n_ratings.replace(",", "")
+    movie_list.append(n_ratings)
+
+    return movie_list
 
 if __name__ == '__main__':
     main()  # call into the progam
