@@ -21,10 +21,10 @@ if __name__ == '__main__':
     python_list = []
     with open(OUTPUT_JSON, 'wb') as f:
     	for line in r:
-    		token = line.split(',')
-    		date = token[1][:4] + '/' + token[1][4:6] + '/' + token[1][6:]
-    		temperature = token[2].strip()
-    		python_list.append([date, temperature])
+    	    token = line.split(',')
+    	    date = token[1][:4] + '/' + token[1][4:6] + '/' + token[1][6:]
+    	    temperature = token[2].strip()
+    	    python_list.append([date, temperature])
     	json.dump(python_list, f)
    	print python_list
 
