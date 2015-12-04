@@ -1,0 +1,36 @@
+.axis text {
+  font: 11px sans-serif;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none;
+  stroke: #000;
+}
+
+.overlay {
+    fill: none;
+    stroke: none;
+    pointer-events: all;
+}
+
+.focusLine {
+    stroke: steelblue;
+    stroke-width: 0.5px;
+}
+
+#div1 {
+	color: 'black';
+	background-color: teal;
+}
+
+#div2 {
+	color: 'black';
+	background-color: teal;
+}

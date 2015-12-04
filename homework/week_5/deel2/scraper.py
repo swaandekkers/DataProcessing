@@ -32,9 +32,9 @@ if __name__ == '__main__':
                 country = token1[2]
                 code = token1[3]
                 income = token1[4].strip()
-            python_list.append([country, code, income])
+            python_list.append({"country": country, "code": code, "income": income})
         print python_list
-        json.dump(python_list, f)
+        json.dump(python_list, f, indent = 4)
 
 
 

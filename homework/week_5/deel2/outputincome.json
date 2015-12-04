@@ -1,0 +1,1203 @@
+[
+    {
+        "country": "Afghanistan", 
+        "code": "AFG", 
+        "income": "569.940728793286"
+    }, 
+    {
+        "country": "Albania", 
+        "code": "ALB", 
+        "income": "4094.36020359235"
+    }, 
+    {
+        "country": "Algeria", 
+        "code": "DZA", 
+        "income": "4473.48744799511"
+    }, 
+    {
+        "country": "American Samoa", 
+        "code": "ASM", 
+        "income": ".."
+    }, 
+    {
+        "country": "Andorra", 
+        "code": "ADO", 
+        "income": "39639.386021211"
+    }, 
+    {
+        "country": "Angola", 
+        "code": "AGO", 
+        "income": "3886.47849419391"
+    }, 
+    {
+        "country": "Antigua and Barbuda", 
+        "code": "ATG", 
+        "income": "13017.3103875487"
+    }, 
+    {
+        "country": "Argentina", 
+        "code": "ARG", 
+        "income": "11227.8384960848"
+    }, 
+    {
+        "country": "Armenia", 
+        "code": "ARM", 
+        "income": "3124.78401786195"
+    }, 
+    {
+        "country": "Aruba", 
+        "code": "ABW", 
+        "income": "24289.1415161326"
+    }, 
+    {
+        "country": "Australia", 
+        "code": "AUS", 
+        "income": "51801.0489492732"
+    }, 
+    {
+        "country": "Austria", 
+        "code": "AUT", 
+        "income": "46593.3892166807"
+    }, 
+    {
+        "country": "Azerbaijan", 
+        "code": "AZE", 
+        "income": "5842.80578358576"
+    }, 
+    {
+        "country": [
+            "Bahamas,", 
+            "The"
+        ], 
+        "code": [
+            "BHS"
+        ], 
+        "income": [
+            "21920.5165867583"
+        ]
+    }, 
+    {
+        "country": "Bahrain", 
+        "code": "BHR", 
+        "income": "20386.0175551116"
+    }, 
+    {
+        "country": "Bangladesh", 
+        "code": "BGD", 
+        "income": "760.331935200195"
+    }, 
+    {
+        "country": "Barbados", 
+        "code": "BRB", 
+        "income": "15901.4329353355"
+    }, 
+    {
+        "country": "Belarus", 
+        "code": "BLR", 
+        "income": "5818.8548592158"
+    }, 
+    {
+        "country": "Belgium", 
+        "code": "BEL", 
+        "income": "44360.9016865863"
+    }, 
+    {
+        "country": "Belize", 
+        "code": "BLZ", 
+        "income": "4344.13666906088"
+    }, 
+    {
+        "country": "Benin", 
+        "code": "BEN", 
+        "income": "690.002281084204"
+    }, 
+    {
+        "country": "Bermuda", 
+        "code": "BMU", 
+        "income": "88207.3275597322"
+    }, 
+    {
+        "country": "Bhutan", 
+        "code": "BTN", 
+        "income": "2201.29307778936"
+    }, 
+    {
+        "country": "Bolivia", 
+        "code": "BOL", 
+        "income": "1981.16010525701"
+    }, 
+    {
+        "country": "Bosnia and Herzegovina", 
+        "code": "BIH", 
+        "income": "4392.79262538464"
+    }, 
+    {
+        "country": "Botswana", 
+        "code": "BWA", 
+        "income": "6244.006548817"
+    }, 
+    {
+        "country": "Brazil", 
+        "code": "BRA", 
+        "income": "11124.0768823607"
+    }, 
+    {
+        "country": "Brunei Darussalam", 
+        "code": "BRN", 
+        "income": "31453.0059440482"
+    }, 
+    {
+        "country": "Bulgaria", 
+        "code": "BGR", 
+        "income": "6580.81387480713"
+    }, 
+    {
+        "country": "Burkina Faso", 
+        "code": "BFA", 
+        "income": "574.458089293656"
+    }, 
+    {
+        "country": "Burundi", 
+        "code": "BDI", 
+        "income": "214.230985038468"
+    }, 
+    {
+        "country": "Cabo Verde", 
+        "code": "CPV", 
+        "income": "3393.92721226559"
+    }, 
+    {
+        "country": "Cambodia", 
+        "code": "KHM", 
+        "income": "782.692789877004"
+    }, 
+    {
+        "country": "Cameroon", 
+        "code": "CMR", 
+        "income": "1147.2423467852"
+    }, 
+    {
+        "country": "Canada", 
+        "code": "CAN", 
+        "income": "47463.6311923649"
+    }, 
+    {
+        "country": "Cayman Islands", 
+        "code": "CYM", 
+        "income": ".."
+    }, 
+    {
+        "country": "Central African Republic", 
+        "code": "CAF", 
+        "income": "446.800204552837"
+    }, 
+    {
+        "country": "Chad", 
+        "code": "TCD", 
+        "income": "895.877995851542"
+    }, 
+    {
+        "country": "Channel Islands", 
+        "code": "CHI", 
+        "income": ".."
+    }, 
+    {
+        "country": "Chile", 
+        "code": "CHL", 
+        "income": "12785.0518749447"
+    }, 
+    {
+        "country": "China", 
+        "code": "CHN", 
+        "income": "4514.94052013381"
+    }, 
+    {
+        "country": "Colombia", 
+        "code": "COL", 
+        "income": "6250.65449979147"
+    }, 
+    {
+        "country": "Comoros", 
+        "code": "COM", 
+        "income": "759.263222965797"
+    }, 
+    {
+        "country": [
+            "Congo,", 
+            "Dem.", 
+            "Rep."
+        ], 
+        "code": [
+            "ZAR"
+        ], 
+        "income": [
+            "311.247895988429"
+        ]
+    }, 
+    {
+        "country": [
+            "Congo,", 
+            "Rep."
+        ], 
+        "code": [
+            "COG"
+        ], 
+        "income": [
+            "2953.18500787675"
+        ]
+    }, 
+    {
+        "country": "Costa Rica", 
+        "code": "CRI", 
+        "income": "7985.95103532732"
+    }, 
+    {
+        "country": "Cote d'Ivoire", 
+        "code": "CIV", 
+        "income": "1236.0851442355"
+    }, 
+    {
+        "country": "Croatia", 
+        "code": "HRV", 
+        "income": "13505.7656168629"
+    }, 
+    {
+        "country": "Cuba", 
+        "code": "CUB", 
+        "income": "5688.66673216525"
+    }, 
+    {
+        "country": "Curacao", 
+        "code": "CUW", 
+        "income": ".."
+    }, 
+    {
+        "country": "Cyprus", 
+        "code": "CYP", 
+        "income": "30438.9001948061"
+    }, 
+    {
+        "country": "Czech Republic", 
+        "code": "CZE", 
+        "income": "19763.9637984737"
+    }, 
+    {
+        "country": "Denmark", 
+        "code": "DNK", 
+        "income": "57647.668762065"
+    }, 
+    {
+        "country": "Djibouti", 
+        "code": "DJI", 
+        "income": "1358.46050004911"
+    }, 
+    {
+        "country": "Dominica", 
+        "code": "DMA", 
+        "income": "6926.8475973831"
+    }, 
+    {
+        "country": "Dominican Republic", 
+        "code": "DOM", 
+        "income": "5358.96794361107"
+    }, 
+    {
+        "country": "Ecuador", 
+        "code": "ECU", 
+        "income": "4657.30173745799"
+    }, 
+    {
+        "country": [
+            "Egypt,", 
+            "Arab", 
+            "Rep."
+        ], 
+        "code": [
+            "EGY"
+        ], 
+        "income": [
+            "2668.03598826159"
+        ]
+    }, 
+    {
+        "country": "El Salvador", 
+        "code": "SLV", 
+        "income": "3547.07098315322"
+    }, 
+    {
+        "country": "Equatorial Guinea", 
+        "code": "GNQ", 
+        "income": "15869.6527116846"
+    }, 
+    {
+        "country": "Eritrea", 
+        "code": "ERI", 
+        "income": "451.426692978845"
+    }, 
+    {
+        "country": "Estonia", 
+        "code": "EST", 
+        "income": "14632.0822062969"
+    }, 
+    {
+        "country": "Ethiopia", 
+        "code": "ETH", 
+        "income": "341.858956165333"
+    }, 
+    {
+        "country": "Faeroe Islands", 
+        "code": "FRO", 
+        "income": "47381.5227624969"
+    }, 
+    {
+        "country": "Fiji", 
+        "code": "FJI", 
+        "income": "3651.94242614479"
+    }, 
+    {
+        "country": "Finland", 
+        "code": "FIN", 
+        "income": "46205.1660111855"
+    }, 
+    {
+        "country": "France", 
+        "code": "FRA", 
+        "income": "40705.7662299421"
+    }, 
+    {
+        "country": "French Polynesia", 
+        "code": "PYF", 
+        "income": ".."
+    }, 
+    {
+        "country": "Gabon", 
+        "code": "GAB", 
+        "income": "9388.23283412454"
+    }, 
+    {
+        "country": [
+            "Gambia,", 
+            "The"
+        ], 
+        "code": [
+            "GMB"
+        ], 
+        "income": [
+            "562.212735081206"
+        ]
+    }, 
+    {
+        "country": "Georgia", 
+        "code": "GEO", 
+        "income": "2613.75692472768"
+    }, 
+    {
+        "country": "Germany", 
+        "code": "DEU", 
+        "income": "41725.8500720167"
+    }, 
+    {
+        "country": "Ghana", 
+        "code": "GHA", 
+        "income": "1323.09914056856"
+    }, 
+    {
+        "country": "Greece", 
+        "code": "GRC", 
+        "income": "26863.0116050517"
+    }, 
+    {
+        "country": "Greenland", 
+        "code": "GRL", 
+        "income": ".."
+    }, 
+    {
+        "country": "Grenada", 
+        "code": "GRD", 
+        "income": "7366.57633588191"
+    }, 
+    {
+        "country": "Guam", 
+        "code": "GUM", 
+        "income": ".."
+    }, 
+    {
+        "country": "Guatemala", 
+        "code": "GTM", 
+        "income": "2805.94799750235"
+    }, 
+    {
+        "country": "Guinea", 
+        "code": "GIN", 
+        "income": "430.0564738591"
+    }, 
+    {
+        "country": "Guinea-Bissau", 
+        "code": "GNB", 
+        "income": "518.598360839748"
+    }, 
+    {
+        "country": "Guyana", 
+        "code": "GUY", 
+        "income": "2998.94127424089"
+    }, 
+    {
+        "country": "Haiti", 
+        "code": "HTI", 
+        "income": "662.279381247291"
+    }, 
+    {
+        "country": "Honduras", 
+        "code": "HND", 
+        "income": "2110.8220208871"
+    }, 
+    {
+        "country": [
+            "Hong", 
+            "Kong", 
+            "SAR,", 
+            "China"
+        ], 
+        "code": [
+            "HKG"
+        ], 
+        "income": [
+            "32550.1378717655"
+        ]
+    }, 
+    {
+        "country": "Hungary", 
+        "code": "HUN", 
+        "income": "12958.2707011137"
+    }, 
+    {
+        "country": "Iceland", 
+        "code": "ISL", 
+        "income": "41695.8945861852"
+    }, 
+    {
+        "country": "India", 
+        "code": "IND", 
+        "income": "1387.88008401275"
+    }, 
+    {
+        "country": "Indonesia", 
+        "code": "IDN", 
+        "income": "3125.21993359966"
+    }, 
+    {
+        "country": [
+            "Iran,", 
+            "Islamic", 
+            "Rep."
+        ], 
+        "code": [
+            "IRN"
+        ], 
+        "income": [
+            "5690.89451143955"
+        ]
+    }, 
+    {
+        "country": "Iraq", 
+        "code": "IRQ", 
+        "income": "4487.36628937513"
+    }, 
+    {
+        "country": "Ireland", 
+        "code": "IRL", 
+        "income": "47903.6813267378"
+    }, 
+    {
+        "country": "Isle of Man", 
+        "code": "IMY", 
+        "income": ".."
+    }, 
+    {
+        "country": "Israel", 
+        "code": "ISR", 
+        "income": "30551.1246771895"
+    }, 
+    {
+        "country": "Italy", 
+        "code": "ITA", 
+        "income": "35877.8714947865"
+    }, 
+    {
+        "country": "Jamaica", 
+        "code": "JAM", 
+        "income": "4917.02320183077"
+    }, 
+    {
+        "country": "Japan", 
+        "code": "JPN", 
+        "income": "42909.2341523544"
+    }, 
+    {
+        "country": "Jordan", 
+        "code": "JOR", 
+        "income": "4370.72104476013"
+    }, 
+    {
+        "country": "Kazakhstan", 
+        "code": "KAZ", 
+        "income": "9070.64997199985"
+    }, 
+    {
+        "country": "Kenya", 
+        "code": "KEN", 
+        "income": "991.850545143199"
+    }, 
+    {
+        "country": "Kiribati", 
+        "code": "KIR", 
+        "income": "1465.55903215115"
+    }, 
+    {
+        "country": [
+            "Korea,", 
+            "Dem.", 
+            "Rep."
+        ], 
+        "code": [
+            "PRK"
+        ], 
+        "income": [
+            ".."
+        ]
+    }, 
+    {
+        "country": [
+            "Korea,", 
+            "Rep."
+        ], 
+        "code": [
+            "KOR"
+        ], 
+        "income": [
+            "22151.2091243629"
+        ]
+    }, 
+    {
+        "country": "Kosovo", 
+        "code": "KSV", 
+        "income": "3283.21193843172"
+    }, 
+    {
+        "country": "Kuwait", 
+        "code": "KWT", 
+        "income": "37724.2737850024"
+    }, 
+    {
+        "country": "Kyrgyz Republic", 
+        "code": "KGZ", 
+        "income": "880.037775119108"
+    }, 
+    {
+        "country": "Lao PDR", 
+        "code": "LAO", 
+        "income": "1147.09538849898"
+    }, 
+    {
+        "country": "Latvia", 
+        "code": "LVA", 
+        "income": "11379.2356381201"
+    }, 
+    {
+        "country": "Lebanon", 
+        "code": "LBN", 
+        "income": "8763.79596416551"
+    }, 
+    {
+        "country": "Lesotho", 
+        "code": "LSO", 
+        "income": "1087.95019540005"
+    }, 
+    {
+        "country": "Liberia", 
+        "code": "LBR", 
+        "income": "326.604433014444"
+    }, 
+    {
+        "country": "Libya", 
+        "code": "LBY", 
+        "income": "11933.7792588018"
+    }, 
+    {
+        "country": "Liechtenstein", 
+        "code": "LIE", 
+        "income": "140101.967275142"
+    }, 
+    {
+        "country": "Lithuania", 
+        "code": "LTU", 
+        "income": "11976.9011427973"
+    }, 
+    {
+        "country": "Luxembourg", 
+        "code": "LUX", 
+        "income": "102863.095724628"
+    }, 
+    {
+        "country": [
+            "Macao", 
+            "SAR,", 
+            "China"
+        ], 
+        "code": [
+            "MAC"
+        ], 
+        "income": [
+            "53045.8790094043"
+        ]
+    }, 
+    {
+        "country": [
+            "Macedonia,", 
+            "FYR"
+        ], 
+        "code": [
+            "MKD"
+        ], 
+        "income": [
+            "4561.17836379433"
+        ]
+    }, 
+    {
+        "country": "Madagascar", 
+        "code": "MDG", 
+        "income": "414.142787218657"
+    }, 
+    {
+        "country": "Malawi", 
+        "code": "MWI", 
+        "income": "365.516569542613"
+    }, 
+    {
+        "country": "Malaysia", 
+        "code": "MYS", 
+        "income": "8802.91348994664"
+    }, 
+    {
+        "country": "Maldives", 
+        "code": "MDV", 
+        "income": "7013.35428382646"
+    }, 
+    {
+        "country": "Mali", 
+        "code": "MLI", 
+        "income": "621.22302302877"
+    }, 
+    {
+        "country": "Malta", 
+        "code": "MLT", 
+        "income": "19694.0831567142"
+    }, 
+    {
+        "country": "Marshall Islands", 
+        "code": "MHL", 
+        "income": "3126.51636530098"
+    }, 
+    {
+        "country": "Mauritania", 
+        "code": "MRT", 
+        "income": "1207.82745747508"
+    }, 
+    {
+        "country": "Mauritius", 
+        "code": "MUS", 
+        "income": "7772.10005652754"
+    }, 
+    {
+        "country": "Mexico", 
+        "code": "MEX", 
+        "income": "8861.49369730697"
+    }, 
+    {
+        "country": [
+            "Micronesia,", 
+            "Fed.", 
+            "Sts."
+        ], 
+        "code": [
+            "FSM"
+        ], 
+        "income": [
+            "2838.44854708113"
+        ]
+    }, 
+    {
+        "country": "Moldova", 
+        "code": "MDA", 
+        "income": "1631.53583179532"
+    }, 
+    {
+        "country": "Monaco", 
+        "code": "MCO", 
+        "income": "145221.191568424"
+    }, 
+    {
+        "country": "Mongolia", 
+        "code": "MNG", 
+        "income": "2650.34688488399"
+    }, 
+    {
+        "country": "Montenegro", 
+        "code": "MNE", 
+        "income": "6636.87502851915"
+    }, 
+    {
+        "country": "Morocco", 
+        "code": "MAR", 
+        "income": "2782.6717971832"
+    }, 
+    {
+        "country": "Mozambique", 
+        "code": "MOZ", 
+        "income": "416.059336428601"
+    }, 
+    {
+        "country": "Myanmar", 
+        "code": "MMR", 
+        "income": ".."
+    }, 
+    {
+        "country": "Namibia", 
+        "code": "NAM", 
+        "income": "5139.05360880406"
+    }, 
+    {
+        "country": "Nepal", 
+        "code": "NPL", 
+        "income": "595.427519830012"
+    }, 
+    {
+        "country": "Netherlands", 
+        "code": "NLD", 
+        "income": "50341.251919716"
+    }, 
+    {
+        "country": "New Caledonia", 
+        "code": "NCL", 
+        "income": ".."
+    }, 
+    {
+        "country": "New Zealand", 
+        "code": "NZL", 
+        "income": "33394.0693361365"
+    }, 
+    {
+        "country": "Nicaragua", 
+        "code": "NIC", 
+        "income": "1523.48146924241"
+    }, 
+    {
+        "country": "Niger", 
+        "code": "NER", 
+        "income": "351.006218346786"
+    }, 
+    {
+        "country": "Nigeria", 
+        "code": "NGA", 
+        "income": "2314.96353665347"
+    }, 
+    {
+        "country": "Northern Mariana Islands", 
+        "code": "MNP", 
+        "income": ".."
+    }, 
+    {
+        "country": "Norway", 
+        "code": "NOR", 
+        "income": "87646.2700974708"
+    }, 
+    {
+        "country": "Oman", 
+        "code": "OMN", 
+        "income": "19920.6495686354"
+    }, 
+    {
+        "country": "Pakistan", 
+        "code": "PAK", 
+        "income": "1043.30020503812"
+    }, 
+    {
+        "country": "Palau", 
+        "code": "PLW", 
+        "income": "9004.63721642892"
+    }, 
+    {
+        "country": "Panama", 
+        "code": "PAN", 
+        "income": "7958.58368968316"
+    }, 
+    {
+        "country": "Papua New Guinea", 
+        "code": "PNG", 
+        "income": "1418.92663451668"
+    }, 
+    {
+        "country": "Paraguay", 
+        "code": "PRY", 
+        "income": "3228.32775609855"
+    }, 
+    {
+        "country": "Peru", 
+        "code": "PER", 
+        "income": "5056.3290944498"
+    }, 
+    {
+        "country": "Philippines", 
+        "code": "PHL", 
+        "income": "2145.24171053314"
+    }, 
+    {
+        "country": "Poland", 
+        "code": "POL", 
+        "income": "12530.3070997379"
+    }, 
+    {
+        "country": "Portugal", 
+        "code": "PRT", 
+        "income": "22539.9945043592"
+    }, 
+    {
+        "country": "Puerto Rico", 
+        "code": "PRI", 
+        "income": "26435.7259802226"
+    }, 
+    {
+        "country": "Qatar", 
+        "code": "QAT", 
+        "income": "70870.2265835221"
+    }, 
+    {
+        "country": "Romania", 
+        "code": "ROM", 
+        "income": "8139.14667335628"
+    }, 
+    {
+        "country": "Russian Federation", 
+        "code": "RUS", 
+        "income": "10674.9972024184"
+    }, 
+    {
+        "country": "Rwanda", 
+        "code": "RWA", 
+        "income": "553.597457610684"
+    }, 
+    {
+        "country": "Samoa", 
+        "code": "WSM", 
+        "income": "3530.57399435295"
+    }, 
+    {
+        "country": "San Marino", 
+        "code": "SMR", 
+        "income": ".."
+    }, 
+    {
+        "country": "Sao Tome and Principe", 
+        "code": "STP", 
+        "income": "1176.48593505139"
+    }, 
+    {
+        "country": "Saudi Arabia", 
+        "code": "SAU", 
+        "income": "18753.9812332079"
+    }, 
+    {
+        "country": "Senegal", 
+        "code": "SEN", 
+        "income": "998.119695502128"
+    }, 
+    {
+        "country": "Serbia", 
+        "code": "SRB", 
+        "income": "5411.87740391911"
+    }, 
+    {
+        "country": "Seychelles", 
+        "code": "SYC", 
+        "income": "10805.0994540818"
+    }, 
+    {
+        "country": "Sierra Leone", 
+        "code": "SLE", 
+        "income": "446.341765694627"
+    }, 
+    {
+        "country": "Singapore", 
+        "code": "SGP", 
+        "income": "46569.688541916"
+    }, 
+    {
+        "country": "Sint Maarten (Dutch part)", 
+        "code": "SXM", 
+        "income": ".."
+    }, 
+    {
+        "country": "Slovak Republic", 
+        "code": "SVK", 
+        "income": "16509.8969196661"
+    }, 
+    {
+        "country": "Slovenia", 
+        "code": "SVN", 
+        "income": "23417.6404531573"
+    }, 
+    {
+        "country": "Solomon Islands", 
+        "code": "SLB", 
+        "income": "1276.34851310464"
+    }, 
+    {
+        "country": "Somalia", 
+        "code": "SOM", 
+        "income": ".."
+    }, 
+    {
+        "country": "South Africa", 
+        "code": "ZAF", 
+        "income": "7389.96026361652"
+    }, 
+    {
+        "country": "South Sudan", 
+        "code": "SSD", 
+        "income": "1563.94857114065"
+    }, 
+    {
+        "country": "Spain", 
+        "code": "ESP", 
+        "income": "30737.8322708385"
+    }, 
+    {
+        "country": "Sri Lanka", 
+        "code": "LKA", 
+        "income": "2399.920468625"
+    }, 
+    {
+        "country": "St. Kitts and Nevis", 
+        "code": "KNA", 
+        "income": "13226.952311419"
+    }, 
+    {
+        "country": "St. Lucia", 
+        "code": "LCA", 
+        "income": "7014.19644868519"
+    }, 
+    {
+        "country": "St. Martin (French part)", 
+        "code": "MAF", 
+        "income": ".."
+    }, 
+    {
+        "country": "St. Vincent and the Grenadines", 
+        "code": "VCT", 
+        "income": "6233.03694488151"
+    }, 
+    {
+        "country": "Sudan", 
+        "code": "SDN", 
+        "income": "1421.53237527134"
+    }, 
+    {
+        "country": "Suriname", 
+        "code": "SUR", 
+        "income": "8430.85478335862"
+    }, 
+    {
+        "country": "Swaziland", 
+        "code": "SWZ", 
+        "income": "2956.69679468117"
+    }, 
+    {
+        "country": "Sweden", 
+        "code": "SWE", 
+        "income": "52076.4305245885"
+    }, 
+    {
+        "country": "Switzerland", 
+        "code": "CHE", 
+        "income": "74277.1216031631"
+    }, 
+    {
+        "country": "Syrian Arab Republic", 
+        "code": "SYR", 
+        "income": ".."
+    }, 
+    {
+        "country": "Tajikistan", 
+        "code": "TJK", 
+        "income": "744.189892165383"
+    }, 
+    {
+        "country": "Tanzania", 
+        "code": "TZA", 
+        "income": "712.233164121615"
+    }, 
+    {
+        "country": "Thailand", 
+        "code": "THA", 
+        "income": "4781.79939106487"
+    }, 
+    {
+        "country": "Timor-Leste", 
+        "code": "TMP", 
+        "income": "875.836569271265"
+    }, 
+    {
+        "country": "Togo", 
+        "code": "TGO", 
+        "income": "496.482472580306"
+    }, 
+    {
+        "country": "Tonga", 
+        "code": "TON", 
+        "income": "3557.75988165044"
+    }, 
+    {
+        "country": "Trinidad and Tobago", 
+        "code": "TTO", 
+        "income": "15494.7029665448"
+    }, 
+    {
+        "country": "Tunisia", 
+        "code": "TUN", 
+        "income": "4212.15466690892"
+    }, 
+    {
+        "country": "Turkey", 
+        "code": "TUR", 
+        "income": "10111.5177086398"
+    }, 
+    {
+        "country": "Turkmenistan", 
+        "code": "TKM", 
+        "income": "4392.71958330752"
+    }, 
+    {
+        "country": "Turks and Caicos Islands", 
+        "code": "TCA", 
+        "income": ".."
+    }, 
+    {
+        "country": "Tuvalu", 
+        "code": "TUV", 
+        "income": "3238.49611054575"
+    }, 
+    {
+        "country": "Uganda", 
+        "code": "UGA", 
+        "income": "567.245344482894"
+    }, 
+    {
+        "country": "Ukraine", 
+        "code": "UKR", 
+        "income": "2973.99648071562"
+    }, 
+    {
+        "country": "United Arab Emirates", 
+        "code": "ARE", 
+        "income": "34341.9112913748"
+    }, 
+    {
+        "country": "United Kingdom", 
+        "code": "GBR", 
+        "income": "38362.2171225955"
+    }, 
+    {
+        "country": "United States", 
+        "code": "USA", 
+        "income": "48374.0564565966"
+    }, 
+    {
+        "country": "Uruguay", 
+        "code": "URY", 
+        "income": "11938.2155396173"
+    }, 
+    {
+        "country": "Uzbekistan", 
+        "code": "UZB", 
+        "income": "1377.08214046938"
+    }, 
+    {
+        "country": "Vanuatu", 
+        "code": "VUT", 
+        "income": "2965.75121006956"
+    }, 
+    {
+        "country": [
+            "Venezuela,", 
+            "RB"
+        ], 
+        "code": [
+            "VEN"
+        ], 
+        "income": [
+            "13581.3533771018"
+        ]
+    }, 
+    {
+        "country": "Vietnam", 
+        "code": "VNM", 
+        "income": "1333.58352635481"
+    }, 
+    {
+        "country": "Virgin Islands (U.S.)", 
+        "code": "VIR", 
+        "income": ".."
+    }, 
+    {
+        "country": "West Bank and Gaza", 
+        "code": "WBG", 
+        "income": "2338.71987682303"
+    }, 
+    {
+        "country": [
+            "Yemen,", 
+            "Rep."
+        ], 
+        "code": [
+            "YEM"
+        ], 
+        "income": [
+            "1310.05383929542"
+        ]
+    }, 
+    {
+        "country": "Zambia", 
+        "code": "ZMB", 
+        "income": "1456.12652618031"
+    }, 
+    {
+        "country": "Zimbabwe", 
+        "code": "ZWE", 
+        "income": "676.748093328326"
+    }, 
+    {
+        "country": "", 
+        "code": "", 
+        "income": ""
+    }, 
+    {
+        "country": "", 
+        "code": "", 
+        "income": ""
+    }, 
+    {
+        "country": "", 
+        "code": "", 
+        "income": ""
+    }, 
+    {
+        "country": "", 
+        "code": "", 
+        "income": ""
+    }, 
+    {
+        "country": "", 
+        "code": "", 
+        "income": ""
+    }
+]
