@@ -4,6 +4,7 @@ var data;
 d3.json("output.json", function(error, json) {
 	if (error) return console.warn(error);
 	data = json;
+	console.log(data)
 
 // set margins
 var margin = {top: 20, right: 20, bottom: 20, left:50},
@@ -109,35 +110,5 @@ visualisation.on('mousemove', function() {
 			div2.style('visibility', 'visible');
 		},1000);
 	})
-
-//visualisation.on('mouseout', function() { line.style('opacity', 0); })
-
-//         var d = data[index]
-
-//         focus.select('#focusLineX')
-            // .attr('x1', corx).attr('y1', margin.top)
-            // .attr('x2', corx).attr('y2', margin.bottom);
-
-//         // focus.select('#focusLineY')
-//         //     .attr('x1', xScale(xDomain[0])).attr('y1', y)
-//         //     .attr('x2', xScale(xDomain[1])).attr('y2', y);
-//     });
-
-// // // select
-// // visualisation.on('mousemove', function(d) {
-// // 	// get mouse coordinates
-// 	// var point = d3.mouse(this)
-// 	// var corx = point[0]
-// 	// var cory = point[1]
-// 	// index = Math.floor(xrange2(corx))
-
-// // 	var myLine = visualisation.append("svg:line")
-//     .attr("x1", )
-//     .attr("y1", 0)
-//     .attr("x2", corx)
-//     .attr("y2", data[index][1])
-// //     .style("stroke", "rgb(6,120,155)")
-// // })
-
  })
 

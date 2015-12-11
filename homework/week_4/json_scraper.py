@@ -18,7 +18,7 @@ if __name__ == '__main__':
     with open(INITIAL_CSV, 'r') as r:
     	r = r.readlines()[12:]
 
-    python_list = []
+    python_list = {}
     with open(OUTPUT_JSON, 'wb') as f:
     	for line in r:
     	    token = line.split(',')

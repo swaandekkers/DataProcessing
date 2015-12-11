@@ -1,6 +1,10 @@
 
 var map = new Datamap({
-	element: document.getElementById('container')});
+	element: document.getElementById('container'),
+	done: function(map) {map.svg.selectAll('.datamaps-subunit').on('click', function(geography) { 
+		console.log(this.className.animVal) function(countrycode)
+	})}
+	});
 
 function determineColor(income) {
 	if (income < 5000){
@@ -38,20 +42,24 @@ function determineColor(income) {
 	}
 }
 
-
 d3.json("outputincome.json", function(error, json) {
 	if (error) return console.warn(error);
 	data = json;
-	console.log(data[0].income)
 	dict = {};
 
 	for (var i = 0; i < data.length; i++) {
 		determineColor(data[i].income)
 		if (data[i].code.length == 3){
-			dict[data[i].code] = color
+			dict[key] = color
 		}
 
 	map.updateChoropleth(dict)
 	}
 })
+data = {"FRA" : [1,2,3,4,5]}
 
+function graph(country) {
+	var current = data[country];
+	return value = current[1]
+
+}
